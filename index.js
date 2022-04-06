@@ -63,5 +63,26 @@ function Game() {
 }
 
 Game()
-console.log("Computer score = ", computerScore)
-console.log("User score = ", userScore)
+
+function winner() {
+  let computerLost = userScore - computerScore
+  let userLost = computerScore - userScore
+  if(computerScore > userScore) {
+    console.log("Your Score = ", userScore)
+    console.log("Computer Score = ", computerScore)
+    console.log("Oops! You Lost the Game! You lost by ", userLost, " Points...")
+  }
+  else if(computerScore < userScore) {
+    console.log("Your Score = ", userScore)
+    console.log("Computer Score = ", computerScore)
+    console.log("Wohoo! You Win the Game! Computer lost by ", computerLost, " Points...")
+  }
+  else {
+    console.log("Your Score = ", userScore)
+    console.log("Computer Score = ", computerScore)
+    console.log("The Game was a Draw.. Play Again! ")
+    Game()
+  }
+}
+
+winner()
