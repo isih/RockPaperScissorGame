@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#headd h1{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-top: 0;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#sepa{
+    border-radius: 10px;
+    color: aliceblue;
+    border-width: 100px;
+}
+
+#heading{
+    font-size: 45px;
+}
+
+#userS{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#computerS{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.ro{
+    width: 120px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'VT323', monospace;
+}
+.pa{
+    width: 120px;
+    margin-right: 10px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    font-size: 22px;
+}
+.si{
+    width: 120px;
+    margin-right: 50px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.reset{
+    height: 30px;
+    border-style: none;
+    font-family: 'VT323', monospace;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#currentRound{
+    font-size: 20px;
+}
+
+#finalScore{
+    font-size: 25px;
+}

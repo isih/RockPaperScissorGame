@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header id="headd">
+        <h1 id="heading">Rock Paper Scissors Battle!</h1>
+    </header>
+    <div id="sepa"></div>
+    <main>
+       <div id="mainn">
+          <div id="computerS">Computer Score 0 Points!</div>
+          <div id="userS">User Score 0 Points!</div>
+          <div id="draw"></div>
+          <div id="wins"></div>
+          <button  onclick="playRound('rock')" class="ro">Rock</button>
+          <button  onclick="playRound('paper')" class="pa">Paper</button>
+          <button  onclick="playRound('sisor')" class="si">Scissors</button>
+          <button class="reset" onclick="window.location.reload()">Play Again?</button>
+          <div id="currentRound"></div>
+          <br>
+          <br>
+          <div id="finalScore"></div>
+       </div>
+    </main>
     <script src="index.js"></script>
 </body>
 </html>
